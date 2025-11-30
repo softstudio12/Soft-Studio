@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Studio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: #1a1a1a;
+            border-bottom: 2px solid #333;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: #222;
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #111;
+            border-top: 2px solid #333;
+            margin-top: 40px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Soft Studio</h1>
+        <p>Simple, clean, and safe for your network.</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>About Soft Studio</h2>
+            <p>This is a lightweight HTML and CSS website designed to be simple, fast, and secure for use on any network. No scripts, no tracking — just clean code.</p>
+        </div>
+
+        <div class="card">
+            <h2>Features</h2>
+            <ul>
+                <li>Pure HTML + CSS</li>
+                <li>No JavaScript</li>
+                <li>Modern clean layout</li>
+                <li>Responsive design</li>
+                <li>Safe for any network setup</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>If you’d like more features or pages, just ask!</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Soft Studio. All rights reserved.
+    </footer>
+
+</body>
+</html>
