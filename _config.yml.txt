@@ -1,0 +1,3 @@
+theme: jekyll-theme-minimal
+title: Soft Studio
+description: A simple and secure HTML/CSS website.
